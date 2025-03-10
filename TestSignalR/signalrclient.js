@@ -23,8 +23,8 @@ async function connectToSignalR() {
 
     // Example: Filter parameters
     const filter = {
-      iIdRutas: [2,5]
-     
+      iIdRuta: 102,
+      iIdRutas: [1, 2, 3, 4, 5]
     };
 
     await connection.invoke("SyncBusRealTime", filter); 
