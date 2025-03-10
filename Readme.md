@@ -2,7 +2,7 @@
 
 Para ejecutar el script `k6-stress-test` en Windows utilizando la consola, sigue estos pasos:
 
-1. **Instalar k6**: Si no tienes k6 instalado, descárgalo e instálalo desde [k6.io](https://k6.io/docs/getting-started/installation/).
+1. **Instalar k6**: Si no tienes k6 instalado, descárgalo e instálalo desde [k6.io](https://grafana.com/docs/k6/latest/set-up/install-k6/).
 
 2. **Abrir la consola**: Abre la consola de comandos (CMD) o PowerShell.
 
