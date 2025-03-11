@@ -5,8 +5,8 @@ class Program
     static async Task Main(string[] args)
     {        
         ThreadPool.SetMinThreads(100, 100);
-        ThreadPool.SetMaxThreads(3000, 3000);
-        int numberOfClients = 3000; // Simulate 3 clients
+        ThreadPool.SetMaxThreads(5000, 5000);
+        int numberOfClients = 1200; // Simulate 3 clients
         List<Task> clientTasks = new List<Task>();
 
         for (int i = 0; i < numberOfClients; i++)

@@ -7,8 +7,8 @@ const connections = new Counter('connections');
 const errors = new Counter('errors');
 
 export let options = {
-  vus: 500, // Number of virtual users
-  duration: '60s', // Test duration
+  vus: 3000, // Number of virtual users
+  duration: '360s', // Test duration
 };
 
 export default function () {
@@ -50,8 +50,6 @@ export default function () {
       console.error('WebSocket error:', err);
       errors.add(1);
     });
-
-    console.log('-------------------------------------------------------');
   });
 
   check(res, { 'status is 101': (r) => r && r.status === 101 });
